@@ -24,7 +24,10 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/click.js'
+        // './test/specs/click.js',
+        // './test/specs/setValue.js',
+        // './test/specs/addValue.js',
+        './test/specs/getText.js'
     ],
     // Patterns to exclude.
     exclude: [
