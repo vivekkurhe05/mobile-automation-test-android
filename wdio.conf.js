@@ -27,7 +27,11 @@ exports.config = {
         // './test/specs/click.js',
         // './test/specs/setValue.js',
         // './test/specs/addValue.js',
-        './test/specs/getText.js'
+        // './test/specs/getText.js',
+        // './test/specs/switch.js',
+        // './test/specs/waitForDisplayed.js',
+        // './test/specs/swipeVertical.js',
+        './test/specs/swipeHorizontal.js'
     ],
     // Patterns to exclude.
     exclude: [
