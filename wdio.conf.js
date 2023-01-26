@@ -31,7 +31,12 @@ exports.config = {
         // './test/specs/switch.js',
         // './test/specs/waitForDisplayed.js',
         // './test/specs/swipeVertical.js',
-        './test/specs/swipeHorizontal.js'
+        // './test/specs/swipeHorizontal.js',
+        // './src/tests/account/login.spec.js',
+        // './src/tests/account/loginGlobalWait.spec.js',
+        // './src/tests/account/inheritancePageObjects.spec.js',
+        // './src/tests/account/loginWithMethodChaining.spec.js',
+        './src/tests/account/loginWithCommandFlow.spec.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -62,8 +67,9 @@ exports.config = {
     capabilities: [{
     
         platformName: 'Android',
-        'appium:platformVersion': '11.0',
-        'appium:deviceName': 'Pixel 3 API 30',
+        // 'appium:platformVersion': '11.0',
+        // 'appium:deviceName': 'Pixel 3 API 30',
+        'appium:udid': "VWCEJ7WSLZGES499",
         'appium:automationName': 'UIAutomator2',
         'appium:app': path.join(process.cwd(), './app/android/Android-NativeDemoApp-0.4.0.apk'),
         'appium:appPackage': 'com.wdiodemoapp',
